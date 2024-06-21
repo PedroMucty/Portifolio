@@ -1,0 +1,43 @@
+.Home_page{
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    top: 20px;
+    justify-content: center;
+}
+
+.Home {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60rem;
+}
+
+.Page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: baseline;
+    gap: 4.5rem; 
+}
+
+.Page ol {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem; 
+    margin: 0;
+    padding: 0;
+}
+
+.Icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.Icons img{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}

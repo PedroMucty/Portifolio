@@ -1,0 +1,50 @@
+body {
+    background-color: #333;
+}
+
+h1 {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+    margin: 0; 
+}
+
+.Page h3 {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    margin: 0; 
+}
+
+.Page a {
+    text-decoration: none;
+}
+
+/* Estilo para links normais */
+h3 a {
+    text-decoration: none;
+    color: #000; /* Cor preta para links normais */
+    display: inline-block;
+    transition: .2s;
+}
+
+/* Estilo para links visitados */
+a:visited {
+    color: #000; /* Cor preta para links visitados */
+}
+
+/* Estilo para links ativos */
+a:active {
+    color: #000; /* Cor preta para links ativos */
+}
+
+/* Estilo para links ao passar o mouse */
+a:hover {
+    color: #000000; /* Cor cinza para links ao passar o mouse */
+    transform: scale(1.10);
+}
+
