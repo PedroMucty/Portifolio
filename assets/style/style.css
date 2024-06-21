@@ -41,3 +41,16 @@
     display: flex;
     align-items: center;
 }
+
+.first{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    flex-direction: column;
+}
+
+.first p{
+    margin-top: 20px;
+    width: 40%;
+}

@@ -1,5 +1,10 @@
 body.on{
-    background-color: #eee;
+    .first_home_backgrd{
+        background-color: red;
+    }
+    .second_home_backgrd{
+        background-color: yellow;
+    }
 }
 
 body.on .lampada{
