@@ -43,14 +43,11 @@
 }
 
 .first{
-    display: flex;
-    align-items: flex-start;
-    margin-left: 8rem;
-    margin-top: 2rem;
-    flex-direction: column;
+    width: 60%;
+   text-align: center;
 }
 
 .first p{
-    margin-top: 20px;
-    width: 40%;
+    margin-top: 40px;
+    
 }

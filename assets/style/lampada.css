@@ -1,9 +1,9 @@
 body.on{
     .first_home_backgrd{
-        background-color: red;
+        background-color: #ddd;
     }
     .second_home_backgrd{
-        background-color: yellow;
+        background-color: #eee;
     }
 }
 
@@ -17,8 +17,7 @@ body.on .lampada::before{
 
 .lampada {
     position: relative;
-    top: -5px;
-    left: 7px;
+    margin-left: 10px;
     width: 80px;
     height: 80px;
     background: #444;
@@ -38,8 +37,8 @@ body.on .lampada::before{
 }
 
 .cabo{
-    position: relative;
-    left: 45px;
+    position: fixed;
+    left: 55px;
     top: -40px;
     width: 4px;
     height: 100px;

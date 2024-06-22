@@ -54,27 +54,37 @@ a:hover {
 }
 
 .first h1{
-    font-size: 35px;
+    font-size: 60px;
 }
 
 p {
     font-family: "Fira Sans", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 15px;
-    color: black;
+    font-size: 25px;
+    color: rgb(2, 2, 2);
     margin: 0; 
 }
 
 .section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100vh; /* Altura total da viewport */
 }
 
 .first_home_backgrd{
-    background-color: aqua;
+    background-color: #333;
 }
 
 .second_home_backgrd{
-    background-color: blue;
+    background-color: #555;
+}
+
+.luz .lampada {
+    position: fixed;
+    top: 80px; /* Ajuste a posição conforme necessário*/
+    left: 7px; /* Ajuste a posição conforme necessário*/
+    z-index: 1000; /* Para garantir que a lâmpada fique acima de outros elementos */
 }
