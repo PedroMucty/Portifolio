@@ -1,0 +1,27 @@
+.carousel {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.carousel img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.carousel img.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.carousel img.previous {
+    opacity: 0;
+    transform: translateX(-100%);
+}

@@ -51,3 +51,23 @@
     margin-top: 40px;
     
 }
+
+.second{
+    width: 60%;
+    text-align: center;
+    padding: 40px;
+}
+
+.second h1{
+    font-size: 25px;
+}
+
+.second p {
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+.first h1{
+    font-size: 60px;
+}
