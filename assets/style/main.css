@@ -29,6 +29,19 @@ h1 {
     text-decoration: none;
 }
 
+.third_home_backgrd li h3{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #dadada;
+    margin: 0; 
+    margin-bottom: 6px;
+}
+
+.third_home_backgrd li{
+    list-style: none;
+}
 /* Estilo para links normais */
 a {
     text-decoration: none;
@@ -66,17 +79,6 @@ p {
     z-index: 1;
 }
 
-
-.Home h1 {
-    position: relative; 
-    z-index: 1; 
-}
-
-
-.second {
-    position: relative; 
-    z-index: 1; 
-}
 .section{
     display: flex;
     justify-content: center;

@@ -8,6 +8,13 @@ body.on{
     .third_home_backgrd{
         background-color: #ddd;
     }
+    .third li{
+        border: 1px solid #111;
+        background-color: #f7f7f7;
+    }
+    .third_home_backgrd li h3{
+        color: black;
+    }
 }
 
 body.on .lampada{
